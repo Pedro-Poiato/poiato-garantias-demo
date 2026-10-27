@@ -1,0 +1,25 @@
+.demo-strip{display:flex;gap:15px;align-items:center;flex-wrap:wrap;background:#dff5ef;padding:8px 18px;color:#285943;font:11px Arial,sans-serif}.demo-strip span{flex:1}.demo-strip button{background:#d2ebdf;border:1px solid #b5dcca;color:#276647;padding:7px 10px;margin:0}.hidden-page{display:none!important}#page-gestao .hidden-page{display:none!important}#page-gestao #gestao-pre:not(.hidden-page){display:block!important}.small-btn{padding:5px 9px;font-size:11px}.garantia-pre-v35{grid-column:1/-1;border:1px solid #c8d9e8;border-left:5px solid #0d5c91;background:#f5f9fc;border-radius:12px;padding:12px 14px;font-size:13px;color:#24445f}.gate{position:fixed;inset:0;z-index:10000;background:#eff4f8;display:grid;place-items:center;padding:20px;font:13px Arial,sans-serif}.gate.hidden{display:none}.gate-card{width:min(420px,100%);background:white;border-radius:14px;padding:26px;box-shadow:0 12px 45px #102a4930}.gate-card h2{margin:0 0 8px;color:#114e83;font-size:23px}.gate-card p{font-size:13px;line-height:1.55;color:#566779;margin:0 0 15px}.gate-card label{display:block;font-weight:700;margin:13px 0 5px}.gate-card button{margin-top:17px;width:100%}.gate-card .gate-note{font-size:11px;margin-top:15px;color:#677f90}#toast{position:fixed;bottom:20px;right:20px;color:#fff;background:#184c6b;border-radius:8px;padding:13px 16px;opacity:0;transform:translateY(8px);pointer-events:none;transition:.2s;z-index:10001;font-size:12px}#toast.show{opacity:1;transform:none}.preview-bar{}.screen-hint{color:#607285;font-size:12px}.tabela-wrap td{white-space:normal}.modal-fundo{overflow-y:auto}.modal{margin:auto}.numero{font-size:13px}button:focus-visible{outline:3px solid #66c0eb;outline-offset:2px}@media(max-width:750px){.grid,.grid-3{grid-template-columns:1fr}.filtros{grid-template-columns:1fr}.header{flex-direction:column;align-items:flex-start}}
+
+/* Marca única: preserva o mesmo P neon do Gestão e CRM; a interface se adapta. */
+:root{--azul:#175fd0;--azul-claro:#e6f0ff;--borda:#d4e0f1;--fundo:#edf3fb;--laranja:#ed9333;--verde:#168954}
+body{background:radial-gradient(ellipse at top left,#dcecff,transparent 47%),#edf3fa}
+.topbar{height:5px;background:linear-gradient(90deg,#073b93,#1b85ff,#43caff)}
+.demo-strip{background:#0b1c36;color:#c5d9f5;border-bottom:1px solid #21477e}
+.demo-strip strong{color:#ecf4ff}
+.demo-strip button{background:#173d73;border:1px solid #2d60a3;color:#f0f7ff}
+.header.poiato-header{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:18px 26px;min-height:113px;background:linear-gradient(120deg,#071327,#102b57);border:1px solid #22518e;border-radius:16px;box-shadow:0 12px 32px #0b2b5422}
+.poiato-header .brand{display:flex;gap:11px;align-items:center;flex:0 0 auto}
+.poiato-header .brand img{height:65px;width:54px;flex:0 0 54px;object-fit:contain;object-position:center;background:transparent;border-radius:0;padding:0}
+.poiato-header .brand-identity{display:flex;flex-direction:column;gap:4px}
+.poiato-header .brand-identity strong{font-size:19px;color:#fff;line-height:1.05;letter-spacing:.025em;white-space:nowrap}
+.poiato-header .brand-identity small{font-size:9px;color:#60b3ff;letter-spacing:1.8px;white-space:nowrap}
+.poiato-header .product-block{flex:1;max-width:450px;border-left:1px solid #365a8c;padding-left:24px}
+.poiato-header .product-block h1{font-size:24px;color:#f5f9ff;margin:0 0 7px}
+.poiato-header .product-block p{font-size:12px;line-height:1.4;color:#c3d7ed;margin:0}
+.area-inicio-v33.pedro{border-top-color:#227ff4}
+.area-inicio-v33 h2,.card-title,.painel-cabecalho-v217 h3{color:#195cbb}
+.principal,.numero,.gestao-abas-v217 button.ativa{background:#176cdd;color:white}
+.garantia-pre-v35{border-left-color:#1974df;background:#eaf3ff;color:#234979}
+.indicador strong{color:#1565cf}
+/* Laranja / verde permanecem só como estados e ações operacionais. */
+@media(max-width:850px){.header.poiato-header{align-items:flex-start;flex-direction:column}.poiato-header .product-block{border-left:0;border-top:1px solid #365a8c;padding:13px 0 0;max-width:none;width:100%}.poiato-header .brand img{height:55px;width:48px;flex-basis:48px}.poiato-header .brand-identity strong{font-size:17px}}
