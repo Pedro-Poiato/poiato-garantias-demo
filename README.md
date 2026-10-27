@@ -1,23 +1,26 @@
-# Poiato Garantias — demonstração interativa
+# Poiato Garantias — demonstração interativa V2
 
-![Pedro Poiato — Soluções Digitais](assets/poiato-banner.png)
+![Prévia da Central de Garantias](preview.png)
 
-Demonstração independente criada por **Pedro Poiato** para apresentar o tipo de solução que desenvolve.
+Protótipo público que apresenta o fluxo de uma central de pré-garantias e garantias. A solução original usa **Google Apps Script, HTML, CSS e JavaScript**; esta demonstração é independente e funciona inteiramente no navegador.
 
-## O que você pode experimentar
+## O que testar
 
-Abertura de pré-garantias, consulta por protocolo, pendências e gestão por etapas.
+- Seleção de um perfil ilustrativo de acesso.
+- Abertura de pré-garantias e geração de protocolo fictício.
+- Consulta por protocolo e painel de pendências.
+- Ficha do caso com produto, relato, anexos **simulados** e histórico.
+- Movimentação entre etapas permitidas: envio ao fornecedor, pedido de complementos, aprovação/recusa, garantia formal e conclusão.
+- Listas distintas para pré-garantias e garantias formais.
+- Indicadores e filtros que acompanham os registros da sessão.
+- Histórico geral de movimentações e reinício do cenário.
 
-Abra [a demonstração no navegador](https://pedro-poiato.github.io/poiato-garantias-demo/) depois que o GitHub Pages estiver habilitado. Você também pode abrir `index.html` diretamente no computador.
+**[Abrir a demonstração no GitHub Pages](https://pedro-poiato.github.io/poiato-garantias-demo/)** (depois de ativar o Pages).
 
-## Sobre o código
+## Limitações
 
-O aplicativo original que inspirou esta demonstração possui outra arquitetura: **Google Apps Script, HTML, CSS e JavaScript**. Esta versão pública foi recriada em **HTML, CSS e JavaScript**, para funcionar sem instalação.
+Todos os pacientes, fornecedores e números de série são inventados. Não existe login real, PIN, envio de e-mail, upload de anexos, aprovação de fornecedor, banco de dados ou integração com serviços externos. O perfil é apenas uma maneira de conhecer as telas. As mudanças são temporárias e desaparecem ao recarregar a página. O código corporativo original não está incluído.
 
-Os dados são fictícios e ficam apenas na sessão do navegador. Não existe conexão com banco de dados, sistemas reais, autenticação, e-mails ou serviços externos. O código interno dos sistemas empresariais **não faz parte deste repositório**.
+Para testar localmente, abra `index.html` em um navegador.
 
-## Autoria
-
-**Pedro Poiato — Soluções Digitais**
-
-[GitHub](https://github.com/Pedro-Poiato) · [LinkedIn](https://www.linkedin.com/in/pedro-poiato-638474389/)
+Pedro Poiato — Soluções Digitais
